@@ -23,7 +23,7 @@ pip install mysql-connector-python
 jupyter notebook
 
 %load_ext sql
-%sql mysql+mysqlconnector://root:root@localhost/test
+%sql mysql+mysqlconnector://root:root@localhost/test(://user:password@host/dbname)
 
 %%sql
 show databases;)
